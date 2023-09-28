@@ -1,0 +1,98 @@
+.originStory {
+    background-color: #3b3b3b;
+}
+
+.originTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.originContent, .timelineCard {
+    background: #525252;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+.originContent {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.timelineCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.originTimeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+}
+
+.timelineCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+
+    @media (min-width: 768px) {
+        width: calc(33.333% - 20px);
+    }
+}
+
+.cardContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.timelineImage {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* .cardContent img:first-child:last-child {
+    width: 50%;
+} */
+
+@media (min-width: 768px) {
+
+    .originTitle {
+        font-size: 22px;
+    }
+
+    .originContent, .timelineCard {
+        padding: 20px;
+        margin-bottom: 2rem;
+    }
+
+    .originContent {
+        line-height: 1.6;
+    }
+
+    .cardContent {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

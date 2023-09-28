@@ -1,0 +1,59 @@
+.footer {
+    background-color: transparent;
+    padding: 40px 20px;
+    border-top: 2px solid #dd6c0384;
+    color: white;
+}
+
+.footerLinks {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #555;
+    margin: 20px 0;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 14px;
+    font-size: 16px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.navLink:hover {
+    color: #dd6c03;
+    text-decoration: underline;
+}
+
+.footerContact {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footerContact p {
+    margin-bottom: 8px;
+}
+
+.footerContact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerContact a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #dd6c03;
+    text-align: center;
+}

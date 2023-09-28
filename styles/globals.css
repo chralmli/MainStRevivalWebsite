@@ -1,0 +1,69 @@
+html,
+body {
+  padding: 0;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  background: radial-gradient(circle at center, rgba(187, 187, 187, 0.537), #000000);
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section {
+  width: 100%;
+  padding: 10px;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.vintageBox {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #453d28;
+}
+
+h2 {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  section {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  section {
+    max-width: 1200px;
+    padding: 40px;
+  }
+}

@@ -1,0 +1,109 @@
+.navbar {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 20px
+}
+
+.navLink {
+    transition: all 0.2s ease;
+}
+
+.navLink:hover {
+    color: #dd6c03;
+}
+
+.menuToggle {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Show menuToggle on smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menuToggle {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 2;
+    }
+
+    .navLinks {
+        display: none;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        transition: 0.4s;
+        z-index: 1;
+        padding-left: 0;
+        padding-top: 20dvh;
+        overflow-y: scroll;
+    }
+
+    .navLinks.showMenu {
+        display: flex;
+    }
+
+    .navLink {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 20px
+    }
+    
+    .openMenu .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .openMenu .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .openMenu .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
+
+}

@@ -1,0 +1,45 @@
+.bandSection {
+    text-align: center;
+    /* background-color: #f4f4f4; */
+    padding: 2rem;
+}
+
+.bandContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.polaroid {
+    width: 260px;
+    padding: 10px;
+    border: 2px solid #b2641b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+    filter: sepia(40%);
+    transition: all 0.3s ease;
+}
+
+.polaroid:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+}
+
+.polaroid h3 {
+    margin: 0.5 0;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 2px #474747;
+}
+
+.polaroid p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #f0f0f0;
+}

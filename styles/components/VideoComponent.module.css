@@ -1,0 +1,14 @@
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin: 3rem 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
