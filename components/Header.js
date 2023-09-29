@@ -11,6 +11,12 @@ const Header = () => {
         setIsMenuOpen(!isMenuOpen);
     };
 
+    // Close the menu
+    const closeMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+    };
+
+
     useEffect(() => {
         const handleScroll = () => {
             const offset = window.scrollY;
@@ -39,10 +45,11 @@ const Header = () => {
                     <Image className={styles.logo} src={'/images/msr-liten.png'} alt={'Main Street Revival logo'} width={100} height={100} />
             </Link>
             <ul className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ""}`}>
-                <Link className={styles.navLink} href="/about">About</Link>
-                <Link className={styles.navLink} href="/music">Music</Link>
-                <Link className={styles.navLink} href="/epk">EPK</Link>
-                <Link className={styles.navLink} href="/contact">Contact</Link>
+                <Link onClick={closeMenu} className={styles.navLink} href="/">Home</Link>
+                <Link onClick={closeMenu} className={styles.navLink} href="/about">About</Link>
+                <Link onClick={closeMenu} className={styles.navLink} href="/music">Music</Link>
+                <Link onClick={closeMenu} className={styles.navLink} href="/epk">EPK</Link>
+                <Link onClick={closeMenu} className={styles.navLink} href="/merch">Merch</Link>
             </ul>
         </nav>
     );

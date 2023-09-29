@@ -22,13 +22,11 @@ export default function Home() {
           <section id="featured-music">
             <MusicPlayer/>
           </section>
-
-          <section id="gigsSection">
-            <UpcomingGigs />
-          </section>
-
           <section id="videoSection">
             <VideoComponent />
+          </section>
+          <section id="gigsSection">
+            <UpcomingGigs />
           </section>
         </div> 
       </div>

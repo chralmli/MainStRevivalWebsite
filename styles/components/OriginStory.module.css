@@ -1,5 +1,6 @@
 .originStory {
     background-color: #3b3b3b;
+    border-radius: 10px;
 }
 
 .originTitle {
@@ -11,7 +12,7 @@
     background: #525252;
     padding: 16px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     margin-bottom: 16px;
 }
 
@@ -22,7 +23,7 @@
 
 .timelineCard:hover {
     transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.9);
 }
 
 .originTimeline {
@@ -44,7 +45,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #b2641b; */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;

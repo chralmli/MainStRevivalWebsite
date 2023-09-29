@@ -1,0 +1,37 @@
+.merchContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.product {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+}
+
+.product:nth-child(odd) {
+    justify-content: flex-start;
+}
+
+.product:nth-child(even) {
+    justify-content: flex-end;
+}
+
+.product img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+@media (max-width: 767px) {
+    .product {
+        width: 100%;
+        margin: auto;
+    }
+
+    .product:nth-child(odd),
+    .product:nth-child(even) {
+        justify-content: center;
+    }
+}

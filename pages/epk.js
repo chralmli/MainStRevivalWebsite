@@ -42,7 +42,7 @@ const EPK = () => {
                     <section className={styles.introductionSection}>
                         <h2>Welcome to Main Street Revival's EPK</h2>
                         <p>
-                            MWe're thrilled to have you here! Our Electronic Press Kit provides you with all the essential information about us.
+                            We're thrilled to have you here! Our Electronic Press Kit provides you with all the essential information about us.
                             You'll find our latest tracks, live performance videos, upcoming tour dates, and more.
                         </p>
                         <p>

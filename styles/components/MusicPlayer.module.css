@@ -73,7 +73,7 @@
     background-color: transparent;
     color: #fff;
     padding: 10px 20px;
-    border: none;
+    border: 1px solid #f9f9f9;
     cursor: pointer;
     font-size: 16px;
     transition: all 0.2s ease;
@@ -87,6 +87,7 @@
 .prevButton:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
+    background-color: #9c9c9c;
 }
 
 .playButton {
@@ -192,9 +193,9 @@
 .ctaButtonBuy, .ctaButtonSpotify {
     font-family: 'Courier New', Courier, monospace;
     background-color: transparent;
-    color: #1d1d1d;
+    color: #f9f9f9;
     padding: 10px 20px;
-    border: 1px solid #1d1d1d;
+    border: 1px solid #f9f9f9;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     cursor: pointer;

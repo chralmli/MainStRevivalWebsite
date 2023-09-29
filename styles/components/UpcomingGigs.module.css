@@ -3,7 +3,6 @@
     color: #fff;
     text-align: center;
     padding: 10px;
-    /* background: linear-gradient(160deg, #1d1d1d, #333); */
 }
 
 .gigsTitle {
@@ -28,12 +27,6 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: scale(1.03);
 }
-
-/* .gigCard img {
-    width: 40%;
-    object-fit: cover;
-    filter: sepia(50%);
-} */
 
 .gigInfo {
     flex-grow: 1;
@@ -81,7 +74,6 @@
         flex-wrap: nowrap;
         display: flex;
         justify-content: center;
-        /* grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); */
         gap: 40px;
     }
 
