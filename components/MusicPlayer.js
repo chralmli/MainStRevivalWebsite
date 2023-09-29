@@ -144,7 +144,6 @@ const MusicPlayer = () => {
         if (audioRef.current) {
             audioRef.current.currentTime = 0;
     }
-    setCurrentTrackIndex((prevIndex) => (prevIndex + 1) % tracks.length);
 };
 
     const previousTrack = () => {
@@ -166,7 +165,7 @@ const MusicPlayer = () => {
                 </div>
                 <Image className={`${styles.albumArt}`} src={'/images/fortuneandfame_front-cover.png'} alt={'Main Street Revival album art'} width={300} height={300} />
             </div>
-            <audio ref={audioRef} src="music/001_Fortune_and_Fame.wav"></audio>
+            <audio ref={audioRef}></audio>
 
             <div className={styles.controls}>
                 <div className={styles.trackInfo}>
