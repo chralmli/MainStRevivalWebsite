@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../styles/components/OriginStory.module.css';
 import ImageModal from './ImageModal';
+import Image from 'next/image';
 
 const OriginStory = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,7 +20,7 @@ const OriginStory = () => {
     const imageCards = [
         {
             images: ["/images/coming_home.jpg"],
-            description: 'Our first two singles, "Coming Home" and "Lost Your Way" released in 2020',
+            description: 'Our first two singles, \"Coming Home\" and \"Lost Your Way\" released in 2020',
         },
         {
             images: ["/images/Notodden-ferie-comp.jpg"],
@@ -48,31 +49,12 @@ const OriginStory = () => {
                     <div key={imgIndex} className={styles.timelineCard}>
                         <div className={styles.cardContent}>
                             {card.images.map((image, index) => (
-                                <img key={imgIndex} src={image} alt={`Image ${imgIndex}`} className={styles.timelineImage} onClick={() => openModal(image)}/>
+                                <Image key={imgIndex} src={image} width={2000} height={2000} layout='responsive' alt={`Image ${imgIndex}`} className={styles.timelineImage} onClick={() => openModal(image)}/>
                             ))}
                         </div>
                         <p>{card.description}</p>
                     </div>
                 ))}
-                {/* <div className={styles.timelineCard}>
-                    <div className={styles.cardContent}>
-                        <img src="/images/coming_home.jpg" alt="Photo for Main Street Revival's single 'Coming Home'" className={styles.timelineImage} onClick={() => openModal('/images/coming_home.jpg')}/>
-                        <img src="/images/lost_your_way.jpg" alt="Photo for Main Street Revival's single 'Lost Your Way'" className={styles.timelineImage}/>
-                    </div>
-                    <p>Our first two singles, "Coming Home" and "Lost Your Way" released in 2020</p>
-                </div>
-                <div className={styles.timelineCard}>
-                    <div className={styles.cardContent}>
-                        <img src="/images/Notodden-ferie-comp.jpg" alt="Main Street Revival at their rented house in Notodden" className={styles.timelineImage}/>
-                    </div>
-                    <p>Relaxing before attending the Union Blues Cup in Notodden in 2022</p>
-                </div>
-                <div className={styles.timelineCard}>
-                    <div className={styles.cardContent}>
-                        <img src="/images/ByscenenWigWam-comp.jpg" alt="Main Street Revival at their rented house in Notodden" className={styles.timelineImage}/>
-                    </div>
-                    <p>Support gig for WigWam at Byscenen in Trondheim, March 2023</p>
-                </div> */}
             </div>
             {isModalOpen && <ImageModal isOpen={isModalOpen} image={selectedImage} onRequestClose={closeModal}/>}
         </section>

@@ -1,4 +1,5 @@
 import styles from "../styles/components/MeetTheBand.module.css";
+import Image from 'next/image';
 
 function MeetTheBand() {
     const bandMembers = [
@@ -28,7 +29,7 @@ function MeetTheBand() {
             <div className={styles.bandContainer}>
                 {bandMembers.map((member, index) => (
                     <div key={index} className={styles.polaroid}>
-                        <img src={`/images/tinified/${member.img}`} alt={member.name} />
+                        <Image src={`/images/tinified/${member.img}`} alt={member.name} width={2400} height={3000} />
                         <h3>{member.name}</h3>
                         <p><strong>{member.role}</strong></p>
                         <p>{member.bio}</p>

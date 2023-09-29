@@ -10,19 +10,19 @@ const EPK = () => {
     const videos = [
         {
             videoUrl: "/video/Second-Chance_Live@Høstrock2023-comp.mov",
-            description: 'Live video of our song "Second Chance" from Høstrock, September 2023.',
+            description: 'Live video of our song \"Second Chance\" from Høstrock, September 2023.',
         },
         {
             videoUrl: "/video/Need-Your-Love_Live@Høstrock2023-comp.mov",
-            description: 'Live video of our newest song "Need Your Love" from Høstrock, September 2023. Not released yet!',
+            description: 'Live video of our newest song \"Need Your Love\" from Høstrock, September 2023. Not released yet!',
         },
         {
             videoUrl: "/video/Easy_Way_Out_Live@Byscenen-compressed.mp4",
-            description: 'Support gig for WigWam at Byscenen in Trondheim, March 2023.',
+            description: 'Live video of our single, \"Easy Way Out\" at a support gig for WigWam at Byscenen in Trondheim, March 2023.',
         },
         {
             videoUrl: "/video/Coming_Home_Live@Byscenen-compressed.mp4",
-            description: 'Live video of our song "Coming Home" at Byscenen in Trondheim, March 2023.',
+            description: 'Live video of our song \"Coming Home\" at Byscenen in Trondheim, March 2023.',
         }
     ];
 
@@ -41,7 +41,7 @@ const EPK = () => {
                     <section className={styles.introductionSection}>
                         <h2>Welcome to Main Street Revival's EPK</h2>
                         <p>
-                            MWe're thrilled to have you here! Our Electronice Press Kit provides you with all the essential information about us.
+                            MWe're thrilled to have you here! Our Electronic Press Kit provides you with all the essential information about us.
                             You'll find our latest tracks, live performance videos, upcoming tour dates, and more.
                         </p>
                         <p>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../styles/components/Biography.module.css';
 import ImageModal from './ImageModal';
+import Image from 'next/image';
 
 const Biography = () => {
 
@@ -27,7 +28,7 @@ const Biography = () => {
                 <h2 className={styles.title}>Biography</h2>
                 <div className={styles.content}>
                     {images.map((image, index) => (
-                        <img key={index} src={image} alt={`Image ${index}`} className={styles.image} onClick={() => openModal(image)}/>
+                        <Image key={index} src={image} width={6352} height={4234} layout='responsive' alt={`Image ${index}`} className={styles.image} onClick={() => openModal(image)}/>
                     ))}
                     <p className={styles.text}>
                         Founded in 2018 in Trøndelag, Main Street Revival is a rock trio with a fresh take on a timeless genre.
