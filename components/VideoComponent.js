@@ -7,9 +7,10 @@ const VideoComponent = () => {
     return (
         <div className={styles.container}>
             <div className={styles.videoWrapper}>
-                <video controls width="100%">
+                {/* <video controls width="100%">
                     <source src="/video/EasyWayOut-Video-compressed.mp4" type="video/mp4" />
-                </video>
+                </video> */}
+                <iframe className={styles.video} src="https://www.youtube.com/embed/vP33y3cQPwM" title="Main Street Revival- Easy Way Out (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 
