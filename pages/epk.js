@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import styles from '../styles/Epk.module.css';
 import Head from 'next/head'
 import Biography from '../components/Biography';
