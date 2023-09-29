@@ -20,7 +20,7 @@ const OriginStory = () => {
     const imageCards = [
         {
             images: ["/images/coming_home.jpg"],
-            description: 'Our first two singles, \"Coming Home\" and \"Lost Your Way\" released in 2020',
+            description: 'Our first two singles, «Coming Home» and «Lost Your Way» released in 2020',
         },
         {
             images: ["/images/Notodden-ferie-comp.jpg"],
@@ -40,7 +40,7 @@ const OriginStory = () => {
             <div className={styles.originContent}>
                 <p>Our lineup consists of Mats Erik Haugskott on guitar and vocals, Julie Sæther Laupstad on bass, and Christian Almli on drums.</p>
                 <p>From renowned Norwegian events like Blues In Hell and Notodden Bluesfestival to opening for Wig Wam, our live performances have consistently drawn praise for their raw, tight energy</p>
-                <p>Our musical style, showcased in our debut album "Fortune and Fame", blends elements of classic rock with a distinctly modern edge. While the influence of iconic bands like Led Zeppelin and Black Sabbath is undeniable, we draw most of our inspiration from contemporary rockers like Rival Sons.</p>
+                <p>Our musical style, showcased in our debut album «Fortune and Fame», blends elements of classic rock with a distinctly modern edge. While the influence of iconic bands like Led Zeppelin and Black Sabbath is undeniable, we draw most of our inspiration from contemporary rockers like Rival Sons.</p>
                 <p>Our music is a mix of hard-hitting riffs, compelling vocals, and rhythmic complexity that delivers to fans of both old-school and modern rock.</p>
             </div>
 
