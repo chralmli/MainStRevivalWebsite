@@ -19,16 +19,38 @@ const OriginStory = () => {
 
     const imageCards = [
         {
-            images: ["/images/coming_home.jpg"],
+            images: ["/images/coming_home.jpg", "/images/lost_your_way.jpg"],
             description: 'Our first two singles, «Coming Home» and «Lost Your Way» released in 2020',
         },
         {
-            images: ["/images/Notodden-ferie-comp.jpg"],
-            description: 'Relaxing before attending the Union Blues Cup in Notodden in 2022',
+            images: ["/images/119A7138-1.jpeg"],
+            description: 'When Julie joined our band in late 2021, everything fell into place, and gave a boost to our song-writing. Autumn 2022 we released our third single, «First Time», which quickly became a popular track with over 30000 streams during the first month.',
         },
         {
-            images: ["/images/ByscenenWigWam-comp.jpg"],
+            images: ["/images/msr-gold-logo-800x800.png", "/images/easy_way_out_single.jpg"],
+            description: 'At the end of 2022, our first album was close to wrapping up, and at the beginning of 2023 we released our fourth single, «Easy Way Out» as a teaser for our debut album «Fortune and Fame»',
+        },
+        {
+            images: ["/images/ByscenenWigWam-comp.jpg", "/images/nowigwamlogo-banner.jpg"],
             description: 'Support gig for WigWam at Byscenen in Trondheim, March 2023',
+        },
+        {
+            images: ["/images/touchdown_logo.jpg"],
+            description: 'Our album was mastered by Ronny Wikmark at Touchdown Music. This led to a great collaboration, and we are now signed to Touchdown Music as our record label.',
+        },
+        {
+            images: ["/images/fortuneandfame_front-cover.png"],
+            description: 'We released our debut album «Fortune and Fame» in March 2023, and it was well received by both fans and critics. The album was recorded at Lydfolket Studio in Inderøy. ',
+        },
+        {
+            images: ["/images/awesome_guitarist.jpg"],
+        },
+        {
+            images: ["/images/fortuneandfame_front-cover.png"],
+            description: 'We are currently working on new material, so stay tuned for more MSR in the future!',
+        },  
+        {
+            images: ["/images/rostad-scene-comp.png"],
         },
     ];
 
