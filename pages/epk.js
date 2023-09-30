@@ -34,7 +34,7 @@ const EPK = () => {
                 <meta name="description" content="Official website of Main Street Revival" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-
+            <div className={styles.container}>
             <main className={styles.main}>
                 <div className={styles.epkContainer}>
                     <h1 className={styles.epkTitle}>Electronic Press Kit</h1>
@@ -93,6 +93,7 @@ const EPK = () => {
                     </div>
                 </div>
             </main>
+            </div>
         </>
     )
 }

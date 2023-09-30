@@ -18,6 +18,7 @@
     width: 28px;
     transform: scale(1);
     transition: transform 0.3s ease-in-out;
+    margin-bottom: -5px;
 }
 
 .socialLinks a:hover {

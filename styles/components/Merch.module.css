@@ -1,3 +1,10 @@
+.merchTitle {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .merchContainer {
     display: flex;
     flex-direction: column;
@@ -6,6 +13,7 @@
 }
 
 .product {
+    position: relative;
     width: 100%;
     margin: 20px 0;
     display: flex;
@@ -22,6 +30,44 @@
 .product img {
     max-width: 400px;
     max-height: 400px;
+}
+
+.product p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imageWrapper {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.product:hover .overlay {
+    opacity: 1;
+}
+
+.shopButton {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {

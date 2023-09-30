@@ -36,6 +36,9 @@ const OriginStory = () => {
         <section className={styles.originStory}>
             <h2 className={styles.originTitle}>The Origin of Main Street Revival</h2>
             <p className={styles.originIntro}>Founded in 2018 in Trøndelag, Main Street Revival is a rock trio with a fresh take on a timeless genre.</p>
+            <div className={styles.aboutHero}>
+                <Image className={styles.pressPhoto} src="/images/119A7344-1-compressed.jpeg" alt="Main Street Revival press photo" width={2400} height={1600} layout='responsive'/>
+            </div>
             
             <div className={styles.originContent}>
                 <p>Our lineup consists of Mats Erik Haugskott on guitar and vocals, Julie Sæther Laupstad on bass, and Christian Almli on drums.</p>

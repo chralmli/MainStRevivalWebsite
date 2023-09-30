@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import MeetTheBand from '../components/MeetTheBand'
 import OriginStory from '../components/OriginStory'
+import Image from 'next/image';
 
 export default function About () {
     return (

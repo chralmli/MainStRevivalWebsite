@@ -16,6 +16,10 @@
     margin-bottom: 16px;
 }
 
+.pressPhoto {
+    border-radius: 12px;
+  }
+
 .originContent {
     line-height: 1.5;
     margin-bottom: 1rem;

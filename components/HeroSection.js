@@ -25,7 +25,7 @@ const HeroSection = () => {
             <div className={styles.heroContent}>
                 <h1 className={styles.heroTitle}><Image className={styles.logo} src={'/images/msr-liten.png'} alt={'Main Street Revival logo'} width="300" height="300" /></h1>
                 <h2 className={styles.heroSubtitle}>Debut Album Out!</h2>
-                <a href="https://open.spotify.com/album/0xIYesyZvOEYHkMyFM3ljQ?si=0eiMj4LlR561kUqopADGTA" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>Listen</a>
+                <a href="https://open.spotify.com/album/0xIYesyZvOEYHkMyFM3ljQ?si=0eiMj4LlR561kUqopADGTA" target="_blank" rel="noopener noreferrer" className={styles.ctaButton}>Listen Now</a>
             </div>
 
             <a onClick={scrollToContent} className={styles.scrollDown}>

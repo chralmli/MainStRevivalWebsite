@@ -163,7 +163,7 @@ const MusicPlayer = () => {
                     <div ref={groovesElementRef} className={`${styles.grooves} ${isPlaying ? styles.spin : ''}`}></div>
                     <div ref={labelElementRef} className={`${styles.label} ${isPlaying ? styles.spin : ''}`}></div>
                 </div>
-                <Image className={`${styles.albumArt}`} src={'/images/fortuneandfame_front-cover.png'} alt={'Main Street Revival album art'} width={300} height={300} />
+                <Image className={`${styles.albumArt}`} src={'/images/fortuneandfame_front-cover.png'} alt={'Main Street Revival album art'} width={250} height={250} />
             </div>
             <audio ref={audioRef}></audio>
 
