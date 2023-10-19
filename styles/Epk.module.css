@@ -2,6 +2,10 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1rem;
+
+    @media (max-width: 460px) {
+        padding: 0 0.3rem;
+    }
 }
 
 .epkTitle {
@@ -21,6 +25,10 @@
     background-color: #333;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+    @media (max-width: 460px) {
+        padding: 0.5rem;
+    }
 }
 
 .introductionSection h2 {
@@ -77,22 +85,63 @@
     height: auto;
 }
 
+.mailTo {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* Download */
 .downloadSection {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3rem;
+
+    @media (max-width: 460px) {
+        flex-direction: column;
+    }
 }
 
-.downloadButton {
+
+.ctaWrapper {
+    width: 50%;
+
+    @media (max-width: 460px) {
+        width: 100%;
+    }
+}
+
+.downloadButton,
+.bookingButton {
+    width: 150px;
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #007bff;
-    color: white;
     border-radius: 4px;
     text-decoration: none;
     transition: background 0.3s ease-in-out;
+    font-weight: bold;
+    border: 1px solid transparent;
+}
+
+.downloadButton {
+    background-color: transparent;
+    border: 1px solid #dab635;
+}
+
+.bookingButton {
+    background-color: #dab635;
+    color: #333;
 }
 
 .downloadButton:hover {
-    background-color: #0069d9;
+    background-color: #dab635;
+    color: #333;
+}
+
+.bookingButton:hover {
+    background-color: transparent;
+    border: 1px solid #dab635;
+    color: #f9f9f9;
 }

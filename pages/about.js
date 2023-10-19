@@ -17,10 +17,9 @@ export default function About () {
                 <h1>About</h1>
                 <div className={styles.content}>
 
-                    <OriginStory />
-
                     <MeetTheBand />
 
+                    <OriginStory />
 
                 </div>
             </main>

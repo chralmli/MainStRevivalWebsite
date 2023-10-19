@@ -46,8 +46,22 @@ const EPK = () => {
                             You'll find our latest tracks, live performance videos, upcoming tour dates, and more.
                         </p>
                         <p>
-                            Feel free to explore, and if you'd like to get in touch for booking or collaboration opportunities, please contact us at <a href="mailto: msrband@outlook.com">msrband@outlook.com</a>
+                            Feel free to explore, and if you'd like to get in touch for booking or collaboration opportunities, please contact us at <a className={styles.mailTo} href="mailto: msrband@outlook.com">msrband@outlook.com</a>
                         </p>
+                        <div className={styles.downloadSection}>
+                            <div className={styles.ctaWrapper}>
+                                <h3>Book Us</h3>
+                                <a href="/files/technical_rider_msr-combined.pdf" download className={styles.bookingButton}>
+                                    Book Us
+                                </a>
+                            </div>
+                            <div className={styles.ctaWrapper}>
+                                <h3>Technical Rider</h3>
+                                <a href="/files/technical_rider_msr-combined.pdf" download className={styles.downloadButton}>
+                                    Download PDF
+                                </a>
+                            </div>
+                        </div>
                     </section>
 
                     <section className={styles.musicSection}>
@@ -85,12 +99,7 @@ const EPK = () => {
 
                     <ContactInfo />
 
-                    <div className={styles.downloadSection}>
-                        <h3>Download Our Technical Rider</h3>
-                        <a href="/files/technical_rider_msr-combined.pdf" download className={styles.downloadButton}>
-                            Download PDF
-                        </a>
-                    </div>
+
                 </div>
             </main>
             </div>

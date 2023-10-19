@@ -7,7 +7,7 @@ const ContactInfo = () => {
                 <div className={styles.singleContact}>
                     <strong>Contact Us:</strong>
                     <p>Main Street Revival</p>
-                    <p>msrband@outlook.com</p>
+                    <a className={styles.mailTo} href="mailto: msrband@outlook.com">msrband@outlook.com</a>
                 </div>
         </section>
     );
