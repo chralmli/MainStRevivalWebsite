@@ -54,9 +54,9 @@ const Biography = () => {
                     <p className={styles.text}>
                     Main Street Revival consists of three members:
                     <ul>
-                        <li>Mats Haugskott – Vocalist and guitarist</li>
-                        <li>Julie Sæther Laupstad – Bassist</li>
-                        <li>Christian Almli - Drummer</li>
+                        <li>Mats Haugskott: Vocalist and guitarist</li>
+                        <li>Julie Sæther Laupstad: Bassist</li>
+                        <li>Christian Almli: Drummer</li>
                     </ul>
                     </p>
                     <p className={styles.text}>
