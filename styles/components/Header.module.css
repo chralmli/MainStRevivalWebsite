@@ -1,6 +1,6 @@
 .navbar {
     background-color: transparent;
-    color: white;
+    color: #343434;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +26,14 @@
 
 .navLink {
     transition: all 0.2s ease;
+    font-weight: bold;
+    color: #ab4f15;
+    padding: 8px 10px;
 }
 
 .navLink:hover {
-    color: #dd6c03;
+    background-color: #212121;
+    color: #ed762c;
 }
 
 .menuToggle {
@@ -46,9 +50,13 @@
 }
 
 .scrolled {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(50, 50, 50, 0.7);
     transition: background-color 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scrolled .navLink {
+    color: white;
 }
 
 /* Show menuToggle on smaller screens */
@@ -76,7 +84,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #000;
+        background-color: #141414;
         transition: 0.4s;
         z-index: 1;
         padding-left: 0;

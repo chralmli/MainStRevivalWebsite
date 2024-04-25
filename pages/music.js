@@ -16,7 +16,7 @@ export default function Music () {
 
         <main className={styles.main}>
 
-            <h1>Music</h1>
+            <h1>Explore Our Music</h1>
             <div className={styles.content}>
                 <section id="featured-music">
                     <MusicPlayer/>

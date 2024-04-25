@@ -3,6 +3,10 @@
     padding: 2rem;
 }
 
+h2.onLightBg {
+    color: #353535;
+  }
+  
 .bandContainer {
     display: flex;
     justify-content: space-around;
@@ -13,11 +17,11 @@
 .polaroid {
     width: 260px;
     padding: 10px;
-    border: 2px solid #b2641b;
+    border: 2px solid #9f9f9f;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     text-align: center;
-    filter: sepia(40%);
+    filter: sepia(30%);
     transition: all 0.3s ease;
 }
 
@@ -33,13 +37,11 @@
 
 .polaroid h3 {
     margin: 0.5 0;
-    color: #f0f0f0;
-    text-shadow: 2px 2px 2px #474747;
+    color: #1e1e1e;
 }
 
 .polaroid p {
     font-size: 16px;
     line-height: 1.4;
-    color: #f0f0f0;
-    text-shadow: 2px 2px 2px #474747;
+    color: #414141;
 }

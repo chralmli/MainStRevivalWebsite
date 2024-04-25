@@ -3,13 +3,12 @@ import styles from '../styles/components/UpcomingGigs.module.css';
 function UpcomingGigs() {
     const gigs = [
         { 
-            date: '22 Sept 2023',
-            venue: 'Scandic Stiklestad, Verdal',
-            ticketLink: 'https://www.eventim.no/artist/hoestrock-2023/'
+            date: 'May 11th 2024',
+            venue: 'Riggen MC, Trondheim',
         },
         { 
-            date: '31 Oct 2023',
-            venue: 'Scandic Lerkendal, Trondheim',
+            date: 'May 25th 2024',
+            venue: 'Havna Scene, Levanger',
         }
     ];
 

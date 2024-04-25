@@ -14,7 +14,6 @@ export default function About () {
             </Head>
 
             <main className={styles.main}>
-                <h1>About</h1>
                 <div className={styles.content}>
 
                     <MeetTheBand />

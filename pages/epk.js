@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Biography from '../components/Biography';
 import TourList from '../components/TourList';
 import ContactInfo from '../components/ContactInfo';
+import Link from 'next/link';
 
 
 const EPK = () => {
@@ -51,9 +52,9 @@ const EPK = () => {
                         <div className={styles.downloadSection}>
                             <div className={styles.ctaWrapper}>
                                 <h3>Book Us</h3>
-                                <a href="/files/technical_rider_msr-combined.pdf" download className={styles.bookingButton}>
+                                <Link href="mailto:msrband@outlook.com" className={styles.bookingButton}>
                                     Book Us
-                                </a>
+                                </Link>
                             </div>
                             <div className={styles.ctaWrapper}>
                                 <h3>Technical Rider</h3>

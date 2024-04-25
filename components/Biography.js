@@ -31,14 +31,38 @@ const Biography = () => {
                         <Image key={index} src={image} width={6352} height={4234} layout='responsive' alt={`Image ${index}`} className={styles.image} onClick={() => openModal(image)}/>
                     ))}
                     <p className={styles.text}>
-                        Founded in 2018 in Trøndelag, Main Street Revival is a rock trio with a fresh take on a timeless genre.
-                        Our lineup consists of Mats Erik Haugskott on guitar and vocals, Julie Sæther Laupstad on bass, and Christian Almli on drums.
+                    Main Street Revival - the power trio that has revitalized the classic rock spirit of the 70s. 
+                    With their unique style, inspired by iconic rock bands like Led Zeppelin and Black Sabbath, 
+                    as well as newer bands like Rival Sons and Kaleo, they affirm that rock music is still thriving.
                     </p>
-                    <p className={styles.text}>From renowned Norwegian events like Blues In Hell and Notodden Bluesfestival to opening for Wig Wam, our live performances have consistently drawn praise for their raw, tight energy
-                        Our musical style, showcased in our debut album «Fortune and Fame», blends elements of classic rock with a distinctly modern edge.
+                    <p className={styles.text}>
+                        Since their launch in 2018, Main Street Revival has released one album, "Fortune and Fame," and two singles, "First Time" and "Easy Way Out." 
+                        Their debut album was released under Touchdown Music AS in May 2023 and has received glowing reviews both nationally and internationally. 
+                        Tracks like "Only Mine" and "Communication" showcase the band's ability to play and produce varied and captivating music.
                     </p>
-                    <p className={styles.text}>While the influence of iconic bands like Led Zeppelin and Black Sabbath is undeniable, we draw most of our inspiration from contemporary rockers like Rival Sons.
-                        Our music is a mix of hard-hitting riffs, compelling vocals, and rhythmic complexity that delivers to fans of both old-school and modern rock.
+                    <p className={styles.text}>
+                    In March 2024, they released their latest single, "Need Your Love,"
+                     which has received great feedback and is being played on radio stations in both the UK and the US, further broadening their international reach.
+                    </p>
+                    <p className={styles.text}>
+                    The band has made a notable impact on the Norwegian live scene. 
+                    They have performed at some of Norway's biggest blues festivals, including the Notodden Blues Festival and Blues In Hell, and have won the hearts of many fans. 
+                    This led to them being chosen as the opening act for WigWam at Byscenen in Trondheim in 2023. 
+                    The band has also achieved remarkable results in several competitions, 
+                    with two podium finishes in the Norwegian Championship in blues and a second place in TM Live 2022.
+                    </p>
+                    <p className={styles.text}>
+                    Main Street Revival consists of three members:
+                    <ul>
+                        <li>Mats Haugskott – Vocalist and guitarist</li>
+                        <li>Julie Sæther Laupstad – Bassist</li>
+                        <li>Christian Almli - Drummer</li>
+                    </ul>
+                    </p>
+                    <p className={styles.text}>
+                    As a live band, Main Street Revival truly shows what they stand for. 
+                    With tough rock, powerful vocals, and an impressive stage show, they deliver an exceptional experience. 
+                    For those who miss the golden age of music with Led Zeppelin and Humble Pie, Main Street Revival is just what you need.
                     </p>
                 </div>
             </div>
@@ -48,3 +72,14 @@ const Biography = () => {
 };
 
 export default Biography;
+
+
+
+
+
+
+
+
+
+
+

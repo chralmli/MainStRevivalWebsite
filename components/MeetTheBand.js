@@ -25,7 +25,7 @@ function MeetTheBand() {
 
     return (
         <section className={styles.bandSection}>
-            <h2>Meet the Band</h2>
+            <h1 className={styles.onLightBg}>Meet the Band</h1>
             <div className={styles.bandContainer}>
                 {bandMembers.map((member, index) => (
                     <div key={index} className={styles.polaroid}>

@@ -10,7 +10,7 @@ const VideoComponent = () => {
                 {/* <video controls width="100%">
                     <source src="/video/EasyWayOut-Video-compressed.mp4" type="video/mp4" />
                 </video> */}
-                <iframe className={styles.video} src="https://www.youtube.com/embed/vP33y3cQPwM" title="Main Street Revival- Easy Way Out (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe className={styles.video} src="https://www.youtube.com/embed/krs_kCZz_Is?si=kNtlVMNxp5qNYm-k" title="Main Street Revival - Need Your Love (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 

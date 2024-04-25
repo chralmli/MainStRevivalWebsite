@@ -7,13 +7,13 @@ const SocialLinks = () => {
 
     return (
         <div className={styles.socialLinks}>
-        <a href="https://www.facebook.com/mainstreetrevival/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/MainStreetRevivalBand" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} size="2x"/>
         </a>
-        <a href="https://www.instagram.com/mainstreetrevival/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/mainstreetrevivalofficial/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faInstagram} size="2x"/>
         </a>
-        <a href="https://www.youtube.com/channel/UCzRgK5z5Zu4tWQw3zXkYzVQ" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/@mainstreetrevivalofficial" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faYoutube} size="2x"/>
         </a>
         </div>

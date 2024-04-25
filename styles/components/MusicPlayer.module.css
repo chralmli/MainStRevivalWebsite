@@ -37,7 +37,7 @@
     align-items: center;
     width: 100%;
     min-width: 250px;
-    background-color: #eee;
+    background-color: #5e5e5e;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     height: 10px;
@@ -45,7 +45,7 @@
 
 .progressBar {
     height: 6px;
-    background-color: #444;
+    background-color: #e7e7e7;
     text-align: center;
     border-radius: 12px;
 }
@@ -70,9 +70,9 @@
 .nextButton,
 .prevButton {
     background-color: transparent;
-    color: #fff;
+    color: #151515;
     padding: 10px 20px;
-    border: 1px solid #f9f9f9;
+    border: 1px solid #5e5e5e;
     cursor: pointer;
     font-size: 16px;
     transition: all 0.2s ease;
@@ -86,7 +86,7 @@
 .prevButton:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.5);
-    background-color: #9c9c9c;
+    background-color: #cdcdcd;
 }
 
 .playButton {
@@ -104,7 +104,7 @@
     height: 4px;
     padding: 4px;
     cursor: pointer;
-    background: #eee;
+    background: #5e5e5e;
     outline: none;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -115,7 +115,6 @@
     appearance: none;
     width: 16px;
     height: 16px;
-    background: #444;
     cursor: pointer;
     border-radius: 50%;
 }
@@ -177,8 +176,7 @@
 .trackInfo {
     font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
-    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 1);
+    color: #2b2b2b;
 }
 
 /* CTA Buttons */
@@ -192,9 +190,9 @@
 .ctaButtonBuy, .ctaButtonSpotify {
     font-family: 'Courier New', Courier, monospace;
     background-color: transparent;
-    color: #f9f9f9;
+    color: #151515;
     padding: 10px 20px;
-    border: 1px solid #f9f9f9;
+    border: 1px solid #151515;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     cursor: pointer;

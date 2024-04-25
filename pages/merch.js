@@ -96,7 +96,7 @@ export default function Merch() {
 
             <main className={styles.main}>
                 <section className={styles.merchHero}>
-                    <h1 className={styles.merchTitle}>Merch</h1>
+                    <h1 className={styles.merchTitle}>Check Out Our Merch</h1>
                     <div className={styles.merchContainer}>
                     {products.map((product) => (
                         <div className={styles.product} key={product.id}>
