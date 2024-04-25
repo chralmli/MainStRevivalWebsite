@@ -5,6 +5,8 @@ import Biography from '../components/Biography';
 import TourList from '../components/TourList';
 import ContactInfo from '../components/ContactInfo';
 import Link from 'next/link';
+import Image from 'next/image';
+import { width } from '@fortawesome/free-brands-svg-icons/fa42Group';
 
 
 const EPK = () => {
@@ -27,6 +29,13 @@ const EPK = () => {
             description: 'Live video of our song «Coming Home» at Byscenen in Trondheim, March 2023.',
         }
     ];
+
+    const images = [
+        { url: "/images/imagecompressor/DSC_2307-3-min.jpg", alt: "Main Street Revival - Music Video Shoot" },
+        { url: "/images/imagecompressor/DSC_2331-min.jpg", alt: "Main Street Revival - Music Video Shoot" },
+        { url: "/images/imagecompressor/DSC_2421-2-min.jpg", alt: "Main Street Revival - Music Video Shoot" },
+        { url: "/images/imagecompressor/DSC_2430-min.jpg", alt: "Main Street Revival - Music Video Shoot" },
+    ]
 
     return (
         <>
@@ -66,14 +75,14 @@ const EPK = () => {
                     </section>
 
                     <section className={styles.musicSection}>
-                        <h2>Our Music</h2>
+                        <h2 className={styles.epkHeading}>Our Music</h2>
                         <div className={styles.spotifyWrapper}>
                             <iframe className={styles.spotifyPlayer} src="https://open.spotify.com/embed/artist/5wTiHNGlupWnSvCiZIncpe?utm_source=generator&theme=0" width="100%" height="352" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                         </div>
                     </section>
 
                     <section id='videoSection'>
-                    <h2>Music Videos</h2>
+                    <h2 className={styles.epkHeading}>Music Videos</h2>
                     <div className={styles.videoSection}>
                         {videos.map((video, index) => {
                             console.log(video.videoUrl);
@@ -92,6 +101,18 @@ const EPK = () => {
                                 );
                             })}
                     </div>
+                    </section>
+
+                    
+                    <section id='gallerySection'>
+                        <h2 className={styles.epkHeading}>Photo Gallery</h2>
+                        <div className={styles.gallery}>
+                            {images.map((image, index) => (
+                                <div key={index} className={styles.galleryItem}>
+                                    <Image src={image.url} alt={image.alt} layout='fill' objectFit='cover' className={styles.galleryImage} />
+                                </div>
+                            ))}
+                        </div>
                     </section>
 
                     <Biography />

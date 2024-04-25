@@ -51,14 +51,16 @@ const Biography = () => {
                     The band has also achieved remarkable results in several competitions, 
                     with two podium finishes in the Norwegian Championship in blues and a second place in TM Live 2022.
                     </p>
-                    <p className={styles.text}>
-                    Main Street Revival consists of three members:
-                    <ul>
-                        <li>Mats Haugskott: Vocalist and guitarist</li>
-                        <li>Julie Sæther Laupstad: Bassist</li>
-                        <li>Christian Almli: Drummer</li>
-                    </ul>
-                    </p>
+                    <div>
+                        <p className={styles.text}>
+                            Main Street Revival consists of three members:
+                        </p>
+                        <ul>
+                            <li>Mats Haugskott: Vocalist and guitarist</li>
+                            <li>Julie Sæther Laupstad: Bassist</li>
+                            <li>Christian Almli: Drummer</li>
+                        </ul>
+                    </div>
                     <p className={styles.text}>
                     As a live band, Main Street Revival truly shows what they stand for. 
                     With tough rock, powerful vocals, and an impressive stage show, they deliver an exceptional experience. 
