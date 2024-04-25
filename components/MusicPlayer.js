@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import 'font-awesome/css/font-awesome.min.css';
 import styles from '../styles/components/MusicPlayer.module.css'; 
@@ -27,18 +27,18 @@ const MusicPlayer = () => {
 
 
     // Constants
-    const tracks = [
-            { path: "music/001_Fortune_and_Fame.wav", name: "Fortune and Fame" },
+    const tracks = useMemo(() => [
+        { path: "music/001_Fortune_and_Fame.wav", name: "Fortune and Fame" },
             { path: "music/002_Coming_Home.wav", name: "Coming Home" },
             // { path: "music/003_Second_Chance.wav", name: "Second Chance" },
             // { path: "music/004_Furry_Little_Friend.wav", name: "Furry Little Friend" },
-            // { path: "music/005_Communication.wav", name: "Communication" },
+            { path: "music/005_Communication.wav", name: "Communication" },
             { path: "music/006_First_Time.wav", name: "First Time" },
             { path: "music/007_Lost_your_way.wav", name: "Lost your way" },
             // { path: "music/008_Only_Mine.wav", name: "Only Mine" },
             { path: "music/009_Easy_way_out.wav", name: "Easy way out" },
             // { path: "music/010_At_ease.wav", name: "At ease"},
-    ];
+    ], []);
 
 
     const updateProgress = () => {
@@ -59,50 +59,6 @@ const MusicPlayer = () => {
         nextTrack();
         setHasEnded(false);
     }
-
-    // Lifecycle methods
-    // useEffect(() => {
-    //     const audio = audioRef.current;
-    //     if (audio) {
-    //         audio.addEventListener('timeupdate', updateProgress);
-    //         audio.addEventListener('ended', onAudioEnd);
-    //         audio.addEventListener('canplaythrough', onAudioReady);
-    //         audio.addEventListener('error', onAudioError);
-
-    //         return () => {
-    //             audio.removeEventListener('timeupdate', updateProgress);
-    //             audio.removeEventListener('ended', onAudioEnd);
-    //             audio.removeEventListener('canplaythrough', onAudioReady);
-    //             audio.removeEventListener('error', onAudioError);
-    //         };
-    //     }
-    // }, [updateProgress, onAudioEnd, onAudioReady, onAudioError]);
-
-    // useEffect(() => {
-    //     const audio = audioRef.current;
-    //     if (audio) {
-    //         console.log("Audio readyState:", audio.readyState);
-    //         console.log("Audio networkState:", audio.networkState);
-    //         if (currentTrackIndex >= 0 && tracks[currentTrackIndex]) {
-    //             if (audio.src !== tracks[currentTrackIndex].path) {
-    //                 setCurrentTrackName(tracks[currentTrackIndex].name);
-    //                 audio.src = tracks[currentTrackIndex].path;
-    //                 audio.load();
-    //             }
-    //         }
-    //             if (isPlaying) {
-    //                 audio.currentTime = pausedTime;
-    //                 audio.play();
-    //             } else {
-    //                 audio.pause();
-    //             }
-
-    //             if (hasEnded) {
-    //                 audio.currentTime = 0;
-    //                 setHasEnded(false);
-    //             }
-    //         }
-    //     }, [currentTrackIndex, isPlaying, hasEnded, pausedTime, tracks]);
 
     useEffect(() => {
         const audio = audioRef.current;

@@ -36,12 +36,12 @@ const Biography = () => {
                     as well as newer bands like Rival Sons and Kaleo, they affirm that rock music is still thriving.
                     </p>
                     <p className={styles.text}>
-                        Since their launch in 2018, Main Street Revival has released one album, "Fortune and Fame," and two singles, "First Time" and "Easy Way Out." 
+                        Since their launch in 2018, Main Street Revival has released one album, &quot;Fortune and Fame,&quot; and two singles, &quot;First Time&quot; and &quot;Easy Way Out.&quot;
                         Their debut album was released under Touchdown Music AS in May 2023 and has received glowing reviews both nationally and internationally. 
-                        Tracks like "Only Mine" and "Communication" showcase the band's ability to play and produce varied and captivating music.
+                        Tracks like &quot;Only Mine&quot; and &quot;Communication&quot; showcase the band's ability to play and produce varied and captivating music.
                     </p>
                     <p className={styles.text}>
-                    In March 2024, they released their latest single, "Need Your Love,"
+                    In March 2024, they released their latest single, &quot;Need Your Love&quot;,
                      which has received great feedback and is being played on radio stations in both the UK and the US, further broadening their international reach.
                     </p>
                     <p className={styles.text}>
