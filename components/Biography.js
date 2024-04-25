@@ -38,7 +38,7 @@ const Biography = () => {
                     <p className={styles.text}>
                         Since their launch in 2018, Main Street Revival has released one album, &quot;Fortune and Fame,&quot; and two singles, &quot;First Time&quot; and &quot;Easy Way Out.&quot;
                         Their debut album was released under Touchdown Music AS in May 2023 and has received glowing reviews both nationally and internationally. 
-                        Tracks like &quot;Only Mine&quot; and &quot;Communication&quot; showcase the band's ability to play and produce varied and captivating music.
+                        Tracks like &quot;Only Mine&quot; and &quot;Communication&quot; showcase the band&apos;s ability to play and produce varied and captivating music.
                     </p>
                     <p className={styles.text}>
                     In March 2024, they released their latest single, &quot;Need Your Love&quot;,
@@ -46,7 +46,7 @@ const Biography = () => {
                     </p>
                     <p className={styles.text}>
                     The band has made a notable impact on the Norwegian live scene. 
-                    They have performed at some of Norway's biggest blues festivals, including the Notodden Blues Festival and Blues In Hell, and have won the hearts of many fans. 
+                    They have performed at some of Norway&apos;s biggest blues festivals, including the Notodden Blues Festival and Blues In Hell, and have won the hearts of many fans. 
                     This led to them being chosen as the opening act for WigWam at Byscenen in Trondheim in 2023. 
                     The band has also achieved remarkable results in several competitions, 
                     with two podium finishes in the Norwegian Championship in blues and a second place in TM Live 2022.
